@@ -12,6 +12,11 @@ pipeline {
                 sh 'echo "Build OK"'
             }
         }
+        stage('Test') {
+            steps { 
+                sh 'npm test' 
+            }
+        }
     }
     post {
         success {
