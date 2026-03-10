@@ -1,0 +1,17 @@
+{
+  "name": "jenkins-hello-world",
+  "version": "1.0.0",
+  "description": "Calculator API for Jenkins CI/CD atelier",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
